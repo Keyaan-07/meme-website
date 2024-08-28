@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="10, url=http://127.0.0.1">
-
+    <meta http-equiv="refresh" content="15, url=/">
     <title>MEMES</title>
+    <style>
+        html{
+            background-color: #000000;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
 <body>
-    <p><img src="{{meme_pic}}" alt=""></p>
-    <p>from: r/{{subreddit}}</p>
+    <h1 style="text-align: center; color: white;">MEMES!!!</h1>
+    <h2 style="color: white; text-align: center;">Here is your fresh meme:</h2>
+
+    <p style="align-items: center;text-align: center;">
+        <img src="{{meme_pic}}" alt="">
+    </p>
+    <p style="text-align: center;color: white;">
+        <a href="https://reddit.com/r/{{subreddit}}/ " style="color: white;">r/{{subreddit}}</a>
+    </p>
+
+    <footer style="background-color: #373737;">
+        <p style="text-align: center; color: white;">Made with ♡ by Keyaan</p>
+    </footer>
 </body>
 </html>
